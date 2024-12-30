@@ -1,0 +1,15 @@
+id = "niva_lsp"
+name = "niva"
+description = "Niva lang support."
+version = "0.0.2"
+schema_version = 1
+authors = ["gavr"]
+repository = "https://github.com/zed-industries/zed"
+
+[language_servers.niva]
+name = "Niva Language Server"
+languages = ["niva"]
+
+[grammars.scala]
+repository = "https://github.com/tree-sitter/tree-sitter-scala"
+commit = "45b5ba0e749a8477a8fd2666f082f352859bdc3c"

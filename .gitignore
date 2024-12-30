@@ -1,0 +1,6 @@
+.idea/
+target
+
+# dev compile product
+grammers/
+*.wasm
