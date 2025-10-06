@@ -1,3 +1,8 @@
 type Person name: String
 
-23 
+Person sayHello = [
+    ^ "hello, my name is: " + name 
+]
+
+p::Person = Person name: "Bob"
+p sayHello echo

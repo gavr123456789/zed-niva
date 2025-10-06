@@ -23,7 +23,7 @@ impl zed::Extension for NivaExtension {
 
         let path = worktree
             .which("nivals")
-            .ok_or_else(|| "niva must be installed and available on your $PATH".to_string())?;
+            .ok_or_else(|| "nivals must be installed and available on your $PATH".to_string())?;
         Ok(zed::Command {
             command: path,
             args: vec![],

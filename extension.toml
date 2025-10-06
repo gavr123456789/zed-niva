@@ -4,12 +4,17 @@ description = "Niva lang support."
 version = "0.0.2"
 schema_version = 1
 authors = ["gavr"]
-repository = "https://github.com/zed-industries/zed"
+repository = "https://github.com/gavr123456789/zed-niva"
 
 [language_servers.niva]
 name = "Niva Language Server"
 languages = ["niva"]
 
-[grammars.scala]
-repository = "https://github.com/tree-sitter/tree-sitter-scala"
-commit = "45b5ba0e749a8477a8fd2666f082f352859bdc3c"
+[grammars.niva]
+repository = "file:///home/gavr/tree-sitter-2"
+rev = "ac142c1a71e63b7542b9c58fa7dff7c7fe5127f9"
+
+
+# [grammars.scala]
+# repository = "https://github.com/gavr123456789/tree-sitter-niva"
+# commit = "167622bfc6785af7269c6cc17b722d70b5cb3bf4"
