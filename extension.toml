@@ -11,10 +11,5 @@ name = "Niva Language Server"
 languages = ["niva"]
 
 [grammars.niva]
-repository = "file:///home/gavr/tree-sitter-2"
-rev = "ac142c1a71e63b7542b9c58fa7dff7c7fe5127f9"
-
-
-# [grammars.scala]
-# repository = "https://github.com/gavr123456789/tree-sitter-niva"
-# commit = "167622bfc6785af7269c6cc17b722d70b5cb3bf4"
+repository = "https://github.com/gavr123456789/tree-sitter-niva.git"
+rev = "180abd3fde8daa063ac29ed93c2c49bffb5c5dae"
