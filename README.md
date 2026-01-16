@@ -21,3 +21,9 @@ You should see this:
 ### Demo
 
 ![image](https://github.com/user-attachments/assets/ce9de880-75a8-4870-8bc6-0601048bc14b)
+
+# For me
+To update grammar 
+1) update it there https://github.com/gavr123456789/tree-sitter-niva
+2) push
+3) update the commit sha here in extension.toml
