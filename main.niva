@@ -1,8 +1,9 @@
 type Person name: String
 
 Person sayHello = [
-    ^ "hello, my name is: " + name 
+    ^ "hello, my name is: " + name
 ]
 
 p::Person = Person name: "Bob"
 p sayHello echo
+// useless change to trigger bot check again.
