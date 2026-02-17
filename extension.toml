@@ -12,4 +12,4 @@ languages = ["niva"]
 
 [grammars.niva]
 repository = "https://github.com/gavr123456789/tree-sitter-niva.git"
-rev = "9ece48418900146361a89fed41916bdef28cfd25"
+rev = "6e06542cac003906f65d8320885c63c0a881e480"
