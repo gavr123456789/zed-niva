@@ -1,6 +1,6 @@
-id = "niva_lsp"
-name = "niva"
-description = "Niva lang support."
+id = "niva"
+name = "Niva"
+description = "Niva Language Support - Smalltalk inspired language with static types and functional leanings"
 version = "0.0.2"
 schema_version = 1
 authors = ["gavr"]
