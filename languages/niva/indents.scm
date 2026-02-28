@@ -1,20 +1,5 @@
-; [
-;   (block)
-;   (arguments)
-;   (parameter)
-;   (class_definition)
-;   (trait_definition)
-;   (object_definition)
-;   (function_definition)
-;   (val_definition)
-;   (import_declaration)
-;   (while_expression)
-;   (do_while_expression)
-;   (for_expression)
-;   (try_expression)
-;   (match_expression)
-; ] @indent
+; Minimal outline support for Zed.
+; The grammar does not yet model declarations, so we expose identifiers and type names.
 
-; (_ "[" "]" @end) @indent
-; (_ "{" "}" @end) @indent
-; (_ "(" ")" @end) @indent
+(identifier) @name @item
+(type_name) @name @item
